@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!teca</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" style="background-color:#000000;">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <div class="logo-image-top">
+                    <img src="helloteca-logo-white.png" class="img-fluid">
+                </div>
+            </a>
+            <a class="navbar-brand" href="#">Planos</a>
+            <a class="navbar-brand" href="#">Ajuda</a>
+            <a class="navbar-brand" href="#">Baixar</a>
+            <a class="navbar-brand" href="#">Criar</a>
+            <a class="navbar-brand" href="#">Login</a>
+        </div>
+      </nav>
+    <section>
+        <div class="logo-image-form">
+            <img src="helloteca-logo-black.png"  class="img-fluid">
+        </div>
+        <div class="forms">
+            <p id="createparagraph">CRIAR CONTA</p><br>
+            
+            <form name="form" action="validation.php" method="POST">
+                <input name="name" id="formfield" type="text"  placeholder="Nome"><br /><br />
+                <input name="lastname" id="formfield" type="text" placeholder="Sobrenome"><br /><br />
+                <input name="birth" id="formfield" type="text" placeholder="Ex: 01/01/2001"><br /><br />
+                <input name="contact" id="formfield" type="text" placeholder="Ex: (11) 12345-6789"><br /><br />
+                <input name="email" id="formfield" type="text" placeholder="E-mail"><br /><br />
+                <input name="password" id="formfield" type="text" placeholder="Senha"><br /><br />
+                <input name="cpf" id="formfield" type="text" placeholder="123.456.789-01"><br /><br />
+                <input name="send" type="submit" value="CRIAR CONTA">
+                </form>
+        </div>
+
+    </section>
+
+
+    <footer>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
