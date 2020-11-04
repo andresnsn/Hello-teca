@@ -27,24 +27,32 @@
             <img src="helloteca-logo-black.png"  class="img-fluid">
         </div>
         <div class="forms">
-            <p id="createparagraph">CRIAR CONTA</p><br>
+            <p id="createparagraph">LOGIN</p><br>
             <form name="form" action="validation.php" method="POST">
-                <input name="name" id="formfield" type="text"  placeholder="Nome"><br /><br />
-                <input name="lastname" id="formfield" type="text" placeholder="Sobrenome"><br /><br />
-                <input name="birth" id="formfield" type="text" placeholder="Ex: 01/01/2001"><br /><br />
-                <input name="contact" id="formfield" type="text" placeholder="Ex: (11) 12345-6789"><br /><br />
+                
                 <input name="email" id="formfield" type="text" placeholder="E-mail"><br /><br />
                 <input name="password" id="formfield" type="password" placeholder="Senha"><br /><br />
-                <input name="cpf" id="formfield" type="text" placeholder="123.456.789-01"><br /><br />
-                <input name="send" id="submitbutton" type="submit" value="CRIAR SUA CONTA">
-            </form>
+                <div class="remember">
+                    <input type="checkbox" name="remember" id="rememberinput"> Lembrar senha
+                </div>
+                <input name="send" id="submitbutton" type="submit" value="ENTRAR">
+            </form><br>
+            <a href="https://www.homehost.com.br/">Cadastrar | </a><a href="#">Esqueceu a Senha?</a></p>
+
         </div>
     </section>
 
 
-    <footer class="page-footer font-small stylish-color-dark pt-4">
 
-    </footer>
-    <script src="script.js"></script>
+      </style>
+      
+      <div id="hellotecalogofooter" style="position: fixed; left: 0; bottom: 0px; width: 100%; padding-top: 200px; background-color:black; color: white; text-align: center;">
+        <div id="divfooter" style="margin-right: 1350px;">
+          <img src="helloteca-logo-white.png" class="img-fluid" style="height: auto; width: 75px;">
+
+        </div>
+        
+        <p>Footer</p>
+      </div>
 </body>
 </html>

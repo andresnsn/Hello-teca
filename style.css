@@ -77,3 +77,8 @@ input::-webkit-input-placeholder {
     color: white;
 }
 
+#lembrar{
+    padding-left: 100px;
+    margin-bottom: -20px;
+}
+
