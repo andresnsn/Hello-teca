@@ -1,0 +1,90 @@
+body{
+    background: rgb(30, 215, 96);
+    font: normal 15pt Arial
+
+}
+header{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+section{
+    background: white;
+    border-radius: 30px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+    margin-top: 40px;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.navbar-brand{
+    color: white;
+    margin-right: 10px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo-image-top{
+    margin-right: 650px;
+    width: 75px;
+    height: 75px;
+    margin-bottom: -15px;
+    padding-top: 5px;
+}
+
+.logo-image-form{
+    width: 75px;
+    height: auto;
+    margin-bottom: -15px;
+}
+
+.forms{
+    text-align: center;
+}
+
+#remember{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
+#formfield{
+    border-radius: 30px;
+    background-color: rgb(234, 235, 235);
+    border: none;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #AAA;
+    transform:translate3d(20px, -10px, 13px, 0);
+    text-align: justify;
+  }
+
+#submitbutton{
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+
+#lembrar{
+    padding-left: 100px;
+    margin-bottom: -20px;
+}
+
+#modelo{
+    width: 75px;
+    height: auto;
+    margin-bottom: -15px;
+}
