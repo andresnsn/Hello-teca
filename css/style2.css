@@ -3,12 +3,14 @@ body{
     font: normal 15pt Arial
 
 }
+
 header{
     color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px;
 }
+
 section{
     background: white;
     border-radius: 30px;
@@ -18,6 +20,7 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
     margin-top: 40px;
 }
+
 footer{
     color: white;
     text-align: center;
@@ -70,7 +73,7 @@ input::-webkit-input-placeholder {
     color: #AAA;
     transform:translate3d(20px, -10px, 13px, 0);
     text-align: justify;
-  }
+}
 
 #submitbutton{
     border-radius: 30px;
