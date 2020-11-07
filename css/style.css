@@ -108,12 +108,7 @@ input::-webkit-input-placeholder {
 .image-home{
     padding-top: 125px;
     padding-right: 100px;
-}
-
-#image-home-home{
-    max-width: 40%;
-    height:auto;
-    float:right;
+    padding-bottom: 200px;
 }
 
 #greenbody{
@@ -125,15 +120,43 @@ input::-webkit-input-placeholder {
     padding-left: 250px;   
 }
 
-.logo-image-home{
-    width: auto;
-    height: 75px;
-    
 
-}
+/* Home Images*/
 #logo-home{
     height: auto;
     width: 500px;
-    margin-left: 65px;
 }
+
+#irregular-form{
+    height: auto;
+    width: 600px;
+    
+}
+
+#image-home{
+    height: auto;
+    width: 850px;
+}
+
+/* Home Image DIV's */
+#div-logo-home{
+    margin-left: 100px;
+}
+
+#div-irregular-form{
+    margin-left: 100px;
+}
+
+#div-image-home{
+    margin-left: 950px;
+    margin-top: -300px;
+    
+}
+
+/* Full Home Image DIV */
+#home-itens{
+    
+}
+
+
 
