@@ -112,12 +112,14 @@ input::-webkit-input-placeholder {
 }
 
 #greenbody{
-    background-color: #1ed760
+    background-color: #1ed760;
+    
 }
 
 #hellotecalogofooter{
-    position: fixed; left: 0; bottom: 0px; width: 100%; background-color:black; color: white; text-align: center; padding-top: 20px;
-    padding-left: 250px;   
+    position: fixed; left: 0; bottom: 0px; width: 100%; background-color:black; color: white; text-align: center; padding-top: 10px;
+    padding-left: 250px; 
+    padding-bottom: 25px;
 }
 
 
@@ -167,6 +169,11 @@ input::-webkit-input-placeholder {
     margin-bottom: 300px;
     background-color: red;
     color: red;
+    
+}
+
+#divfooterform{
+    
     
 }
 
